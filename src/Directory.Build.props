@@ -1,0 +1,35 @@
+﻿<Project>
+	<PropertyGroup>
+		<TargetFrameworks>net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<IncludeSymbols>true</IncludeSymbols>
+		<Authors>百小僧</Authors>
+		<Company>百签科技（广东）有限公司</Company>
+		<Product>ProxyDispatch</Product>
+		<Copyright>© 2020-2024 百小僧及百签科技（广东）有限公司</Copyright>
+		<RepositoryUrl>https://gitee.com/dotnetchina/ProxyDispatch</RepositoryUrl>
+		<RepositoryType>Gitee</RepositoryType>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://gitee.com/dotnetchina/ProxyDispatch</PackageProjectUrl>
+		<PackageOutputPath>../nupkgs</PackageOutputPath>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<EmbedUntrackedSource>true</EmbedUntrackedSource>
+		<EmbedAllSources>true</EmbedAllSources>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<DocumentationFile>$(MSBuildProjectName).xml</DocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\README.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
+
+</Project>
