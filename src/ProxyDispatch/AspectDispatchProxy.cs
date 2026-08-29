@@ -170,3 +170,4 @@ public abstract class AspectDispatchProxy : DispatchProxy
     /// </summary>
     private static readonly MethodInfo _invokeAsyncOfTMethod = typeof(AspectDispatchProxy).GetMethod(nameof(InvokeAsync), 1, BindingFlags.Public | BindingFlags.Instance | BindingFlags.DeclaredOnly, null, new[] { typeof(Invocation) }, null);
 }
+// 1c77a5

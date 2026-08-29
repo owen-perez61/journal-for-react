@@ -292,3 +292,4 @@ internal class @proxy_type_name: @type_name, @interface_name
     /// </summary>
     private const string DUCK_CONSTRUCTOR_TEMPLATE = @"  public @proxy_origin_name(@parameters): base(@call_parameters) {}";
 }
+// 12b191

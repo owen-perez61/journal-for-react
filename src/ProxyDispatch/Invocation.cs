@@ -130,3 +130,4 @@ public sealed class Invocation
         return (T)await (Task<object>)Proceed();
     }
 }
+// 620d02
